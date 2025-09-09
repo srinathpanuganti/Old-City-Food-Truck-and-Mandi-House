@@ -70,9 +70,9 @@ const Header = () => {
               <img 
                 src={businessInfo.logo} 
                 alt="Old City Food Truck Logo" 
-                className="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover border-2 border-amber-300 hover:scale-110 transition-transform duration-300"
+                className="w-11 h-11 md:w-14 md:h-14 rounded-full object-cover border-2 border-amber-300 hover:scale-110 transition-transform duration-300"
               />
-              <div className="absolute -top-1 -right-1 w-4 h-4 bg-green-500 rounded-full border-2 border-white animate-pulse-custom"></div>
+              {/* <div className="absolute -top-1 -right-1 w-4 h-4 bg-green-500 rounded-full border-2 border-white animate-pulse-custom"></div> */}
             </div>
             <div>
               <h1 className={`text-lg md:text-xl lg:text-2xl font-display font-bold transition-colors duration-300 ${
